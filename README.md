@@ -9,3 +9,13 @@ In the results of the model applied within the scope of the project, it was seen
 
 ## BLSTM (With GloVe Word Embeddings)
 
+- What is GloVe Word Embeddings?
+ GloVe is a distributional word embedding method used for word representations. In our models, the "glove.twitter.27B.200d" model, which is a pre-trained version of the GloVe model and trained on social media data, is used. By training on 27 billion tweets, each word is represented through a 200-dimensional vector representation.
+
+[Stanford GloVe Model](https://nlp.stanford.edu/projects/glove/)
+
+## DEMO
+
+
+
+
