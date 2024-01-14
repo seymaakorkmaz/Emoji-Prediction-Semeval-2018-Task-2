@@ -15,7 +15,7 @@ The training file can be downloaded from the provided [link](https://codalab.lis
 
 These processes aim to organize and standardize the data.
 
-## Two-Stage Classification with BERT
+## Two Stage Classification with BERT
 
 The results of the model revealed that emoji number 0 was very dominant in the predicted emojis. Therefore, a two-stage classification is applied:
 1. In the first step, it determines whether the input sentence belongs to emoji number 0 or any of the other 19 emojis.
