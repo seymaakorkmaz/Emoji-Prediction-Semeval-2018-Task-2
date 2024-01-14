@@ -1,6 +1,10 @@
 # Emoji Prediction - SemEval 2018 Task-2
 
+Our project, 'Emoji Prediction from Text as a Sentiment Analysis Method', involves extracting emotion from text through semantic analysis. The aim of our project is to classify data with various classification algorithms and predict emojis on unclassified data. You can find details about the project description on the [Codalab website](https://alt.qcri.org/semeval2018/index.php?id=tasks).
+
 The training file can be downloaded from the provided [link](https://codalab.lisn.upsaclay.fr/competitions/8121) for the dataset.
+
+
 
 ## Normalization
 
@@ -27,6 +31,9 @@ The results of the model revealed that emoji number 0 was very dominant in the p
 GloVe is a distributional word embedding method used for word representations. In our models, the "glove.twitter.27B.200d" model is utilized. This pre-trained version of the GloVe model is trained on social media data, specifically 27 billion tweets, and represents each word through a 200-dimensional vector.
 
 - Learn more about [Stanford GloVe Model](https://nlp.stanford.edu/projects/glove/)
+
+
+More than 20 models were tested within the scope of the project. The two most successful models have been added to the Github repository. You can review the [report file](Report.pdf) for information on other tried models.
 
 ## DEMO
 
