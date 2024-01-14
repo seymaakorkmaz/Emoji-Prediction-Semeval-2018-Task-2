@@ -15,7 +15,7 @@ The training file can be downloaded from the provided [link](https://codalab.lis
 
 These processes aim to organize and standardize the data.
 
-## Two-Stage Classification
+## Two-Stage Classification with BERT
 
 The results of the model revealed that emoji number 0 was very dominant in the predicted emojis. Therefore, a two-stage classification is applied:
 1. In the first step, it determines whether the input sentence belongs to emoji number 0 or any of the other 19 emojis.
@@ -31,7 +31,12 @@ The results of the model revealed that emoji number 0 was very dominant in the p
 GloVe is a distributional word embedding method used for word representations. In our models, the "glove.twitter.27B.200d" model is utilized. This pre-trained version of the GloVe model is trained on social media data, specifically 27 billion tweets, and represents each word through a 200-dimensional vector.
 
 - Learn more about [Stanford GloVe Model](https://nlp.stanford.edu/projects/glove/)
+## Accuracy Rates
 
+| Model        | Accuracy Rate                 |
+|------------------|----------------------------|
+| Two Stage Classification with BERT     | 27% |
+| BLSTM (With GloVe Embeddings)    | 29%|
 
 More than 20 models were tested within the scope of the project. The two most successful models have been added to the Github repository. You can review the [report file](Report.pdf) for information on other tried models.
 
