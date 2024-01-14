@@ -38,7 +38,7 @@ GloVe is a distributional word embedding method used for word representations. I
 | Two Stage Classification with BERT     | 27% |
 | BLSTM (With GloVe Embeddings)    | 29%|
 
-More than 20 models were tested within the scope of the project. The two most successful models have been added to the Github repository. You can review the [report file](Report.pdf) for information on other tried models.
+More than 20 models were tested within the scope of the project. The two most successful models have been added to the Github repository. You can review the [report](Report.pdf) and [article](Article.pdf) files for information on other tried models.
 
 ## DEMO
 
