@@ -1,6 +1,6 @@
 # Emoji Prediction - SemEval 2018 Task-2
 
-Our **computer project**, __"Emoji Prediction from Text as a Sentiment Analysis Method"__, involves extracting emotion from text through semantic analysis. The aim of our project is to classify data with various classification algorithms and predict emojis on unclassified data. Learn more about [competition](https://alt.qcri.org/semeval2018/index.php?id=tasks).
+Our **computer project**, __"Emoji Prediction from Text as a Sentiment Analysis Method"__, involves predicting emotion from text through semantic analysis. The aim of our project is to classify data with various classification algorithms and predict emojis on unclassified data. Learn more about [competition](https://competitions.codalab.org/competitions/17344).
 
 The training file can be downloaded from the provided [link](https://codalab.lisn.upsaclay.fr/competitions/8121) for the dataset.
 
